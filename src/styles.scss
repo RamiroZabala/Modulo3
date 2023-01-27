@@ -1,0 +1,182 @@
+$color-primary:#EEF;
+$color-secondary:#889;
+$color-special1:#5918DF;
+$color-special2:#15B991;
+$color-bg:#100E17;
+
+body{
+    background: $color-bg;  /* fallback for old browsers */
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+body::before{
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;left:0;
+    background-image: url("./assets/img/prismatic-abstract-line.svg");
+    width:100%;
+    height:100%;
+    background-position: center;
+    background-size:180% auto;
+    background-repeat: no-repeat;
+    opacity:0.08;
+    z-index: -1;
+}
+header>nav{
+    margin:10px 20px;
+    margin-bottom: 200px !important;;
+    
+}
+.navbar-brand{
+    font-size:25px;
+}
+.navbar-brand,
+.navbar-brand *{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+.col1{
+    color:$color-special1;
+}
+.col2{
+    color:$color-special2;
+}
+#main{
+    color:$color-primary;
+    .medium{
+        font-size:26px;
+    }
+    .big{
+        font-size:50px;
+        font-weight: 500;
+    }
+    .desc{
+        line-height: 50px;
+    }
+}
+h1,h2,h3,h4,h5{
+    color:$color-primary;
+}
+h1,h2,h3,h4{
+    margin-bottom:15px;
+}
+h3{
+    text-transform: uppercase;
+    position:relative;
+}
+h3::before{
+    content:"";
+    display:inline-block;
+    position:absolute;
+    z-index:-1;
+    left:25px;
+    right:25px;
+    bottom:10px;
+    height:2px;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+}
+h3::before,
+.progress>.progress-bar{
+    background: rgba($color-special1,0.60);
+    background: linear-gradient(90deg,rgba($color-special1,0.1) 0%, rgba($color-special1,0.85) 100%);
+    background: -webkit-linear-gradient(90deg,rgba($color-special1,0.1) 0%, rgba($color-special1,0.85) 100%);
+    background: -moz-linear-gradient(90deg,rgba($color-special1,0.1) 0%, rgba($color-special1,0.85) 100%);
+}
+h5{
+    color:$color-secondary;
+}
+
+#about .social{padding:0;margin:0 8px;}
+.fa-brands{
+    display:table-cell;
+    margin-right:auto;
+    margin-left:0;
+    border-radius:100%;
+    height:64px;
+    width:64px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color:$color-secondary;
+    transition: all 0.2s;
+}
+.fa-brands:hover{
+    color:$color-special2;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.fa-brands:active{
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+#thumbnail_nav{
+    height:100%;
+    width:auto;
+}
+.progress{
+    margin-bottom:15px;
+    height:15px;
+    overflow: visible;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    border-radius: 0;
+}
+
+.progress>.progress-bar{
+    position:relative;
+    overflow: visible;
+}
+.progress>.progress-bar::after{
+    content:"";
+    display:inline-block;
+    width:3px;
+    position:absolute;
+    right:0;
+    bottom:-3px;
+    top:-3px;
+}
+/*GENERAL COLOR OVERRIDES*/
+.social>a,
+.progress{
+    background-color:rgba(100,100,100,0.2);
+}
+.progress>.progress-bar::after{
+    background-color: $color-special1;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+   
+}
+#maincontainer>.row{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+#maincontainer>.row:first-child{
+    margin-top:0;
+}
+.g-5>div{
+    margin-top:0; 
+}
+.g-5>div>h4{
+    margin-top:20px;  
+}
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width:100%;
+    height:100%;
+}

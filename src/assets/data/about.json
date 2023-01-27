@@ -1,0 +1,72 @@
+{
+    "short_name":"Ramiro",
+    "name":"Ramiro Zabala",
+    "short_description":"Bla bla bla bla bla, completar texto aqui...",
+    "img_banner": "",
+    "img_profile": "profile.png",
+    "img_profile_small": "profile_small.png",
+    "location": "Rosario, Santa Fe (Argentina)",
+    "email":"ramirozabala5@gmail.com",
+    "facebook":"https://www.facebook.com/profile.php?id=100009462435183",
+    "twitter":"https://twitter.com/RamiroZabala17",
+    "instagram":"https://twitter.com/RamiroZabala17",
+    "phone":"+54 9 3412-178-186",
+    "about":"Programador Web. Diseñador Gráfico",
+    "education":[
+        {
+            "title":"Programador Web Full Stack Jr",
+            "description":"YoProgramo 4ta Edición (INTI)",
+            "period":"2022 - En curso",
+            "icon":"logo_argprog.png"
+        },
+        {
+            "title":"Secundario",
+            "description":"Escuela de enseñanza media Nº436 - Juan Mantovani",
+            "period":"2000 - 2005",
+            "icon":"logo_eeso436.png"
+        }
+    ],
+    "skills_frontend":[
+        {
+            "skillname":"HTML5",
+            "value":95
+        },
+        {
+            "skillname":"Javascript / Typescript",
+            "value":90
+        },
+        {
+            "skillname":"CSS3",
+            "value":95
+        }
+    ],
+    "skills_backend":[
+        {
+            "skillname":"PHP",
+            "value":90
+        },
+
+        {
+            "skillname":"MySQL",
+            "value":75
+        }
+    ],
+    "skills_others":[
+        {
+            "skillname":"Photoshop",
+            "value":85
+        },
+        {
+            "skillname":"Graficos Vectoriales",
+            "value":90
+        },
+        {
+            "skillname":"Modelado y renderizado 3D",
+            "value":75
+        },
+        {
+            "skillname":"Game Dev",
+            "value":60
+        }
+    ]
+}

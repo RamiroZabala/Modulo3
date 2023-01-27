@@ -1,0 +1,30 @@
+<div id="SkillList" class="row g-5 mt-5"><!--EDUCACION-->
+    <h3>Habilidades Informaticas</h3>
+    <div class="col-sm-12 col-lg-6">
+        <div class="col-12 mt-4">
+            <h4>Frontend</h4>
+            <app-skill-item
+                *ngFor="let item of data1"
+                    [skillname]="item.skillname"
+                    [value]="item.value"
+            ></app-skill-item>
+            <br>
+            <h4>Backend</h4>
+            <app-skill-item
+                *ngFor="let item of data2"
+                    [skillname]="item.skillname"
+                    [value]="item.value"
+            ></app-skill-item>
+        </div>
+    </div>
+    <div class="col-sm-12 col-lg-6">
+        <div class="col-12 mt-4">
+            <h4>Otros</h4>
+            <app-skill-item
+                *ngFor="let item of data3"
+                    [skillname]="item.skillname"
+                    [value]="item.value"
+            ></app-skill-item>
+        </div>
+    </div>
+</div>

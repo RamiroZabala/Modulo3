@@ -1,0 +1,12 @@
+<div id="Education" class="row g-5 mt-5"><!--EDUCACION-->
+    <h3>EDUCACION</h3>
+    <div class="col-12 mt-4">
+        <app-education-item
+            *ngFor="let item of data"
+                [title]="item.title"
+                [description]="item.description"
+                [period]="item.period"
+                [icon]="item.icon"
+        ></app-education-item>
+    </div>
+</div>
